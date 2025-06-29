@@ -1,0 +1,21 @@
+{
+  "nodes": [
+    "input",
+    "processing",
+    "recommendations"
+  ],
+  "edges": [
+    [
+      "input",
+      "processing"
+    ],
+    [
+      "processing",
+      "recommendations"
+    ]
+  ],
+  "entry_point": "input",
+  "end_points": [
+    "recommendations"
+  ]
+}
